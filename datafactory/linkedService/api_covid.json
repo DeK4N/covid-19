@@ -1,0 +1,12 @@
+{
+	"name": "api_covid",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://api.covidtracking.com/v1/us/daily.json",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
