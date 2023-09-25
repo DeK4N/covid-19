@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "mzemla-df"
+		},
+		"test_accountKey": {
+			"value": ""
+		},
+		"api_covid_properties_typeProperties_url": {
+			"value": "https://api.covidtracking.com/v1/us/daily.json"
+		},
+		"test_properties_typeProperties_url": {
+			"value": "https://mzemlacovidstorage.dfs.core.windows.net/"
+		}
+	}
+}
