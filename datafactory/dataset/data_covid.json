@@ -1,0 +1,12 @@
+{
+	"name": "data_covid",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "api_covid",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}
